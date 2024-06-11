@@ -7,3 +7,5 @@ print(resultado)
 
 resultado = conjunto_a.isdisjoint(conjunto_c)  # False
 print(resultado)
+
+#conjunto que não uma intersecção

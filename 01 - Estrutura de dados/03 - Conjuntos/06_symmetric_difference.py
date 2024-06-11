@@ -3,3 +3,5 @@ conjunto_b = {2, 3, 4}
 
 resultado = conjunto_a.symmetric_difference(conjunto_b)
 print(resultado)
+
+#todos os numeros que so tem um em cada variavel

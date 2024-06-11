@@ -5,10 +5,10 @@ contatos = {
     "melaine@gmail.com": {"nome": "Melaine", "telefone": "3333-7766"},
 }
 
-for chave in contatos:
+for chave in contatos: #retorna com o valor só da primeira string
     print(chave, contatos[chave])
 
 print("=" * 100)
 
-for chave, valor in contatos.items():
+for chave, valor in contatos.items(): #aparentemente vem com todos valores(nao sei)
     print(chave, valor)
