@@ -1,11 +1,12 @@
-def exibir_poema(data_extenso, *args, **kwargs):
+def exibir_poema(data_extenso, *args, **kwargs): #args só valor e kwargs chave-valor
     texto = "\n".join(args)
-    meta_dados = "\n".join([f"{chave.title()}: {valor}" for chave, valor in kwargs.items()])
+    meta_dados = "\n".join([f"{chave.title()}:\n {valor}" for chave, valor in kwargs.items()])
     mensagem = f"{data_extenso}\n\n{texto}\n\n{meta_dados}"
     print(mensagem)
 
 
 exibir_poema(
+    "Sexta-feira, 14 de Junho de 2024",
     "Zen of Python",
     "Beautiful is better than ugly.",
     "Explicit is better than implicit.",

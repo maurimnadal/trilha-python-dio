@@ -1,4 +1,4 @@
-def criar_carro(modelo, ano, placa, /, *, marca, motor, combustivel):
+def criar_carro(modelo, ano, placa, /, *, marca, motor, combustivel):   #posição / posição ou nome * nome
     print(modelo, ano, placa, marca, motor, combustivel)
 
 
